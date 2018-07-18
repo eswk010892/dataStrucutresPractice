@@ -1,4 +1,4 @@
-
+//linkedList with all the relevant functions
 public class LinkedList {
 	Node head;
 	static class Node{
