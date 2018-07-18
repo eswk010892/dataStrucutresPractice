@@ -6,6 +6,7 @@ public class qUS {
 	void enqueue(int data){
 		s1.push(data);
 	}
+	//helper function to dump all the elements from s1 to s2
 	void transfer(){
 		while(!s1.isEmpty()){
 			s2.push(s1.pop());
