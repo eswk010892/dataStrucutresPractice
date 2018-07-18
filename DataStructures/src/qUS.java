@@ -15,6 +15,7 @@ public class qUS {
 	boolean isEmpty(){
 		return (s1.isEmpty()&&s2.isEmpty());
 	}
+	//made dequeue costly where it switches all the elements from s1 to s2 so the oldest element is on the top to achieve queue behavior
 	int dequeue(){
 		if(this.isEmpty()){
 			System.out.println("Queue is Empty");
