@@ -43,6 +43,7 @@ public boolean isEmpty(){
 public int size(){
 	return top;
 }
+//************************************************
 	public static void main(String[] args) {
 		myStack stack1 = new myStack(5);
 		stack1.push(1);
