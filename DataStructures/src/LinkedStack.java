@@ -1,4 +1,4 @@
-
+//stack implementation using singly linked linkedList
 public class LinkedStack<Item> implements Stack<Item> {
 private Node head;
 private int size;
