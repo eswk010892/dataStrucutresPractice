@@ -7,6 +7,7 @@ public class qUSS {
 	boolean isEmpty(){
 		return this.stack.isEmpty();
 	}
+	//used recursion to return the last element 
     int dequeue(){
     	if(stack.isEmpty()){
     		System.out.println("queue is empty");
